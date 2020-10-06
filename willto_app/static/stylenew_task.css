@@ -1,0 +1,127 @@
+#wrapper {
+    background-color: #2cb3f3;
+    color: white;
+    font-family: Menlo, monospace;
+    font-size: 18px;
+    width: 100%;
+    min-height: 2250px;
+    padding-top: 25px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.last_task {
+    display: block;
+    visibility: hidden;
+    margin: 25px auto;
+    width: 50%;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+}
+
+h3 {
+    color: #ffffff;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-shadow: 4px 2px 12px #34507a;
+    margin-left: 10px;
+
+}
+
+h5 {
+    color: #34507a;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.15em;
+    text-shadow: 4px 2px 12px #ffffff;
+    margin-left: 10px; 
+}
+
+.tasks {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+table {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+table > label {
+    font-size: 1.15em
+}
+
+.questions {
+    display: block;
+    width: 100%;
+    margin: 0px 600px 0px 600px;
+}
+
+.questions label {
+    margin: 0px 150px 0px 775px;
+    font-size: 18px;
+}
+
+.questions input {
+    width: 5%;
+    margin: 0px 250px 0px 0px;
+    font-size: 18px;
+    padding: 3px 0px 3px 0px;
+}
+
+#new_task_submit_button {
+    background-color: #2e4663;
+    padding: 7px 15px 7px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ffffff;
+}
+
+#new_task_submit_button a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#willto_list_button {
+    background-color: #2e4663;
+    padding: 7px 15px 7px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ffffff;
+} 
+
+#willto_list_button a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#logout_button {
+    background-color: #2e4663;
+    padding: 7px 15px 7px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 20px 0px 0px 1600px;
+    border: 1px solid #ffffff;
+} 
+
+#logout_button a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}

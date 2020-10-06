@@ -1,0 +1,5 @@
+//TODO Update size of task, due date, notes on new_task page
+//TODO Button fonts on new_task page
+//TODO MultiValueDictKeyError at /registration for 'first_name'
+//TODO Action to take when a task is marked complete
+//CURRENT ACTION Editing user_dash function in views.py.  User dash is the user profile page

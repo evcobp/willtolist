@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'stylewillto_list.css' %}">
+  </head>
+  <body>
+    <h3>Welcome{{first_name}}!</h3>
+    <h4>Profile</h4>
+        <table id="user_profile" style="width:75%">
+            <tr>
+              <th colspan="4">First Name</th>
+              <th width:15%>Last Name</th>
+              <th colspan="4">Username</th>
+              <th width=10%>Email</th>
+            </tr>
+            
+            <tr>
+                <td id="first_name" colspan="4">{{first_name}}</td>
+                <td id="last_name" width=15%>{{last_name}}</td>
+                <td id="username" colspan="4">{{username}}</td>
+                <td id="email" width=10%>{{email}}</td>
+            </tr>
+          </table>
+  </body>
+  </html>
